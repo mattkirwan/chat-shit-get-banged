@@ -57,7 +57,9 @@ class GameFrame extends Frame {
   }
   visible = true
   contents = new BoxPanel(Orientation.Vertical) {
+    border = Swing.EtchedBorder(Swing.Lowered)
     contents += button
+    contents += Swing.VStrut(200)
   }
 }
 
